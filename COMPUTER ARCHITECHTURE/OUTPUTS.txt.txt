@@ -1,0 +1,33 @@
+OUTPUT FOR PROGRAM 1.
+
+Expression: a) (24 + (+17))
+  Operand A: 24 = 00011000
+  Operand B: 17 = 00010001
+  Result Binary: 00101001
+  Result Decimal: 41
+  Overflow Detected: False
+
+Expression: b) ((-25) + (-18))
+  Operand A: -25 = 11100111
+  Operand B: -18 = 11101110
+  Result Binary: 11010101
+  Result Decimal: -43
+  Overflow Detected: False
+
+
+
+OUTPUT FOR PROGRAM 2.
+
+--- a) Logical Left Shift of 1111110110 by 2 positions ---
+Original 8-bit binary: 11110110
+  Step 1 (Shift Left): 11101100
+  Step 2 (Shift Left): 11011000
+Final 8-bit Result: 11011000
+
+--- b) Logical Right Shift of 10010100 by 2 positions ---
+Original 8-bit binary: 10010100
+  Step 1 (Shift Right): 01001010
+  Step 2 (Shift Right): 00100101
+Final 8-bit Result: 00100101
+
+.
